@@ -1,4 +1,4 @@
-// modelo/user.dart
+
 class User {
   int id;
   String correo;
