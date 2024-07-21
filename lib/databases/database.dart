@@ -85,12 +85,12 @@ class DatabaseHelper {
   }
 
   //metodo para eliminar recetas de usuario
- // Future <int> eliminarReceta(int id)async{
-   /** final db = await database;
+ Future <int> eliminarReceta(int id)async{
+   final db = await database;
     return await db.delete(
       'recetas',
       where:'id = ?',
       whereArgs: [id],
     );
-  }  */
+  }  
 }
